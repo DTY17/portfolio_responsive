@@ -49,17 +49,19 @@
       </div>
     </header>
     <section class="Hero_Section">
-      <h1 class="name">John Smith</h1>
+      <h1 class="name" id="name">John Smith</h1>
       <h3 class="description">
         A Game Developer, a Programmer, a Ethical Hacker and a Web Developer
       </h3>
       <div style="display: flex; gap: 20px" class="hero_btn_div">
-        <button class="hero_btn">Contact me</button>
+        <a href="/pages/contact_me.html"
+          ><button class="hero_btn">Contact me</button></a
+        >
         <button class="hero_btn">CV</button>
       </div>
     </section>
     <section class="skills">
-      <h2 class="skill_topic">Skills</h2>
+      <h2 class="skill_topic" id="skills">Skills</h2>
       <h4 class="desc">
         Skilled developed over the years with software development
       </h4>
@@ -227,7 +229,7 @@
       </div>
     </section>
     <section class="Testemonial">
-      <strong class="topic">Testemonial</strong>
+      <strong class="topic" id="test">Testemonial</strong>
       <div class="Users_slider">
         <div class="users" id="users_1">
           <img src="/src/image/Users/User.jpg" alt="" class="User" />
@@ -264,7 +266,7 @@
       </div>
     </section>
     <section class="projects">
-      <strong class="topic">Projects</strong>
+      <strong class="topic" id="topic">Projects</strong>
       <div class="classContainer">
         <div class="card">
           <img
@@ -331,16 +333,18 @@
       <div class="row">
         <div class="colm">
           <label class="top">About me</label>
-          <label class="ul_colm">About me</label>
-          <label class="ul_colm">projects</label>
-          <label class="ul_colm">Testemonial</label>
+          <label class="ul_colm"><a href="#name">About me</a></label>
+          <label class="ul_colm"><a href="#topic">projects</a></label>
+          <label class="ul_colm"><a href="#test">Testemonial</a></label>
         </div>
         <div class="colm">
           <label class="top">Map</label>
-          <label class="ul_colm">About me</label>
-          <label class="ul_colm">skills</label>
-          <label class="ul_colm">Testemonial</label>
-          <label class="ul_colm">projects</label>
+          <label class="ul_colm"
+            ><a href="/pages/about_me.html">About me</a></label
+          >
+          <label class="ul_colm"><a href="#skills">skills</a></label>
+          <label class="ul_colm"><a href="#test">Testemonial</a></label>
+          <label class="ul_colm"><a href="#topic">projects</a></label>
         </div>
         <div class="colm">
           <label class="top">Follow</label>
